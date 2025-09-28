@@ -3,145 +3,167 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CultureConnect</title>
+  <title>Cross-Cultural Platform</title>
   <style>
-    /* Reset & Font */
-    body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
-    h1, h2, h3 { color: #222; }
-
-    /* Navbar */
-    header { background: #2c3e50; color: white; padding: 15px 20px; position: sticky; top: 0; }
-    nav a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
-
-    /* Sections */
-    section { padding: 60px 20px; max-width: 1000px; margin: auto; }
-    #home { background: #f4f6f7; text-align: center; }
-    #home h1 { font-size: 2.5em; margin-bottom: 10px; }
-    .cta { background: #007BFF; color: white; padding: 12px 25px; border-radius: 5px; text-decoration: none; }
-    .cta:hover { background: #0056b3; }
-
-    /* Cards & Layout */
-    .flex { display: flex; gap: 20px; flex-wrap: wrap; }
-    .card { background: white; border: 1px solid #ddd; border-radius: 8px; padding: 20px; flex: 1; min-width: 250px; }
-
-    /* Footer */
-    footer { background: #2c3e50; color: white; text-align: center; padding: 20px; }
-    footer a { color: #f1c40f; margin: 0 8px; text-decoration: none; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 { margin: 0; }
+    nav {
+      background: #34495e;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    section {
+      padding: 3rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #2c3e50;
+      margin-bottom: 1rem;
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #e67e22;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 2rem;
+    }
   </style>
 </head>
 <body>
 
-  <!-- Navbar -->
+  <!-- Header / Homepage -->
   <header>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#problem">Problem</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <h1>Bridging Cultures, Building Understanding</h1>
+    <p>Your partner in overcoming cross-cultural barriers</p>
+    <a href="#about" class="cta-button">Get Started</a>
   </header>
 
-  <!-- Homepage -->
-  <section id="home">
-    <h1>Bridging Cultures, Connecting People 🌍</h1>
-    <p>Membantu menjembatani gap dalam cross-cultural understanding.</p>
-    <a href="#about" class="cta">Get Started</a>
-  </section>
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#problem">Problem & Solution</a>
+    <a href="#features">Features</a>
+    <a href="#whyus">Why Choose Us</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
   <!-- About Us -->
   <section id="about">
     <h2>About Us</h2>
-    <p><b>Latar Belakang:</b> Banyak individu maupun organisasi yang mengalami kesulitan memahami budaya lain.</p>
-    <p><b>Visi:</b> Menjadi platform utama untuk membangun pemahaman lintas budaya.</p>
-    <p><b>Misi:</b> Memberikan edukasi, solusi, dan koneksi antar budaya untuk dunia yang lebih inklusif.</p>
-    <p><i>Kami peduli karena komunikasi lintas budaya adalah kunci untuk mengurangi kesenjangan global.</i></p>
+    <p>We are a platform dedicated to breaking down barriers in cross-cultural understanding. 
+       Our mission is to help people, businesses, and communities communicate and collaborate 
+       across cultural differences with empathy and respect.</p>
+    <p><strong>Vision:</strong> A world where cultural diversity is a source of unity, not division.</p>
+    <p><strong>Mission:</strong> To provide tools, training, and opportunities for meaningful cross-cultural exchange.</p>
   </section>
 
   <!-- Problem & Solution -->
   <section id="problem">
     <h2>Problem & Solution</h2>
-    <p><b>Problem:</b> Miskomunikasi antar budaya sering menimbulkan kesalahpahaman.</p>
-    <p><b>Solution:</b> CultureConnect menyediakan pelatihan, artikel, dan layanan untuk meningkatkan pemahaman budaya secara praktis.</p>
+    <p><strong>The Problem:</strong> Misunderstandings, conflicts, and missed opportunities often arise 
+       from gaps in cross-cultural communication.</p>
+    <p><strong>Our Solution:</strong> We offer workshops, online resources, and community engagement programs 
+       that empower individuals and organizations to navigate cultural differences effectively.</p>
   </section>
 
-  <!-- Features / Services -->
-  <section id="services">
-    <h2>Our Services</h2>
-    <div class="flex">
-      <div class="card">
-        <h3>Workshops</h3>
-        <p>Pelatihan interaktif yang membekali skill komunikasi lintas budaya.</p>
-      </div>
-      <div class="card">
-        <h3>Consulting</h3>
-        <p>Konsultasi khusus untuk organisasi dan individu yang bekerja secara global.</p>
-      </div>
-      <div class="card">
-        <h3>Insights</h3>
-        <p>Blog & artikel seputar budaya dan tips komunikasi global.</p>
-      </div>
-    </div>
+  <!-- Features -->
+  <section id="features">
+    <h2>Features / Services</h2>
+    <ul>
+      <li>Interactive cross-cultural training workshops</li>
+      <li>Digital learning resources and toolkits</li>
+      <li>Community discussion forums</li>
+      <li>Customized consulting for businesses</li>
+    </ul>
   </section>
 
   <!-- Why Choose Us -->
-  <section id="why">
+  <section id="whyus">
     <h2>Why Choose Us</h2>
-    <ul>
-      <li>Fokus pada cross-cultural gap</li>
-      <li>Tim berpengalaman</li>
-      <li>Solusi aplikatif & relevan</li>
-    </ul>
+    <p>Unlike traditional training, our platform combines real-life case studies, interactive activities, 
+       and ongoing community support. We are not just a service, we are your partner in long-term cultural growth.</p>
   </section>
 
   <!-- Testimonials -->
   <section id="testimonials">
     <h2>Testimonials</h2>
-    <div class="flex">
-      <div class="card">“CultureConnect membantu kami mengelola tim multikultural dengan lebih baik.”</div>
-      <div class="card">“Artikel mereka membuka wawasan saya dalam komunikasi global.”</div>
-    </div>
+    <blockquote>
+      “This platform transformed how our team collaborates across cultures. Highly recommended!” – Early Partner
+    </blockquote>
   </section>
 
   <!-- Pricing -->
   <section id="pricing">
     <h2>Pricing</h2>
-    <p>Paket layanan mulai dari <b>$50</b>. Hubungi kami untuk custom plan.</p>
-    <a href="#contact" class="cta">Contact Us</a>
+    <p>We offer flexible packages tailored to your needs:</p>
+    <ul>
+      <li><strong>Basic:</strong> Free access to community forums</li>
+      <li><strong>Standard:</strong> Workshops + online resources</li>
+      <li><strong>Premium:</strong> Custom consulting + full access</li>
+    </ul>
+    <a href="#contact" class="cta-button">Contact Us for Plans</a>
   </section>
 
-  <!-- Blog / Insights -->
+  <!-- Blog -->
   <section id="blog">
-    <h2>Insights</h2>
-    <p>Baca artikel terbaru tentang cross-cultural communication, tips kerja global, dan wawasan budaya.</p>
+    <h2>Insights & Articles</h2>
+    <p>Stay tuned for articles on culture, communication tips, and real-world stories.</p>
   </section>
 
   <!-- Contact Us -->
   <section id="contact">
     <h2>Contact Us</h2>
     <form>
-      <label>Nama:</label><br>
-      <input type="text" name="name"><br><br>
+      <label>Name:</label><br>
+      <input type="text" name="name" required><br><br>
       <label>Email:</label><br>
-      <input type="email" name="email"><br><br>
-      <label>Pesan:</label><br>
-      <textarea name="message"></textarea><br><br>
-      <button type="submit">Kirim</button>
+      <input type="email" name="email" required><br><br>
+      <label>Message:</label><br>
+      <textarea name="message" rows="5" required></textarea><br><br>
+      <button type="submit">Send</button>
     </form>
-    <p>Email: info@cultureconnect.com | WA: +62 812-3456-7890</p>
+    <p>Email: contact@crossculturalplatform.com</p>
+    <p>WhatsApp: +62 812-3456-7890</p>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2025 CultureConnect | All Rights Reserved.</p>
+    <p>&copy; 2025 Cross-Cultural Platform | All Rights Reserved</p>
     <p>
       <a href="#about">About</a> | 
-      <a href="#services">Services</a> | 
+      <a href="#features">Services</a> | 
       <a href="#contact">Contact</a> | 
-      <a href="#privacy">Privacy Policy</a>
+      <a href="#">Privacy Policy</a>
     </p>
   </footer>
 
 </body>
-        </html>
+  </html>
