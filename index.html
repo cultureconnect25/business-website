@@ -3,25 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cross-Cultural Platform</title>
+  <title>Culture Connect</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0; padding: 0;
       line-height: 1.6;
+      color: #2c3e50;
     }
-header {
-      background-image: url("IMG-20250928-WA0217.jpg");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+    header {
+      background: linear-gradient(135deg, #2c3e50, #34495e);
       color: white;
-      padding: 2rem;
+      padding: 4rem 2rem;
       text-align: center;
     }
-    header h1 { margin: 0; }
+    header h1 { margin: 0; font-size: 2rem; }
+    header p { font-size: 1.2rem; margin-top: 1rem; }
     nav {
-      background: #34495e;
+      background: #e67e22;
       padding: 1rem;
       text-align: center;
     }
@@ -29,6 +28,7 @@ header {
       color: white;
       margin: 0 1rem;
       text-decoration: none;
+      font-weight: bold;
     }
     section {
       padding: 3rem;
@@ -36,17 +36,40 @@ header {
       margin: auto;
     }
     h2 {
-      color: #2c3e50;
+      color: #e67e22;
       margin-bottom: 1rem;
     }
+    ul { list-style: none; padding: 0; }
+    ul li { margin-bottom: 0.5rem; }
     .cta-button {
       display: inline-block;
-      margin-top: 1rem;
+      margin: 1rem;
       padding: 0.75rem 1.5rem;
       background: #e67e22;
       color: white;
       border-radius: 5px;
       text-decoration: none;
+    }
+    blockquote {
+      border-left: 5px solid #e67e22;
+      padding-left: 1rem;
+      margin: 1.5rem 0;
+      font-style: italic;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background: #e67e22;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
     }
     footer {
       background: #2c3e50;
@@ -55,22 +78,24 @@ header {
       padding: 2rem;
       margin-top: 2rem;
     }
+    footer a { color: #e67e22; margin: 0 0.5rem; text-decoration: none; }
   </style>
 </head>
 <body>
 
-  <!-- Header / Homepage -->
+  <!-- Homepage -->
   <header>
-    <h1>Bridging Cultures, Building Understanding</h1>
-    <p>Your partner in overcoming cross-cultural barriers</p>
-    <a href="#about" class="cta-button">Get Started</a>
+    <h1>Master Cross-Cultural Skills, Unlock Global Opportunities.</h1>
+    <p>We help students and young professionals bridge cultural gaps through hybrid training, mentoring, and community support.</p>
+    <a href="#contact" class="cta-button">Join Now</a>
+    <a href="#about" class="cta-button">Learn More</a>
   </header>
 
   <!-- Navigation -->
   <nav>
     <a href="#about">About Us</a>
     <a href="#problem">Problem & Solution</a>
-    <a href="#features">Features</a>
+    <a href="#features">Services</a>
     <a href="#whyus">Why Choose Us</a>
     <a href="#testimonials">Testimonials</a>
     <a href="#pricing">Pricing</a>
@@ -81,92 +106,103 @@ header {
   <!-- About Us -->
   <section id="about">
     <h2>About Us</h2>
-    <p>We are a platform dedicated to breaking down barriers in cross-cultural understanding. 
-       Our mission is to help people, businesses, and communities communicate and collaborate 
-       across cultural differences with empathy and respect.</p>
-    <p><strong>Vision:</strong> A world where cultural diversity is a source of unity, not division.</p>
-    <p><strong>Mission:</strong> To provide tools, training, and opportunities for meaningful cross-cultural exchange.</p>
+    <p>Culture Connect was founded with a simple mission: to help individuals and companies thrive in today’s multicultural world. We believe that beyond technical skills, cultural understanding is the true key to collaboration and success.</p>
+    <p><strong>Vision:</strong> A world where cultural differences become strengths, not barriers.</p>
+    <p><strong>Mission:</strong> To equip future leaders with practical cross-cultural skills for career and personal growth.</p>
   </section>
 
   <!-- Problem & Solution -->
   <section id="problem">
     <h2>Problem & Solution</h2>
-    <p><strong>The Problem:</strong> Misunderstandings, conflicts, and missed opportunities often arise 
-       from gaps in cross-cultural communication.</p>
-    <p><strong>Our Solution:</strong> We offer workshops, online resources, and community engagement programs 
-       that empower individuals and organizations to navigate cultural differences effectively.</p>
+    <p><strong>The Problem:</strong> Many students and professionals struggle with communication and adaptation when working in diverse, global environments. Misunderstandings and lack of cultural awareness can lead to lower productivity and missed opportunities.</p>
+    <p><strong>Our Solution:</strong> Culture Connect provides hybrid training programs, mentorship, and a supportive global community that prepares individuals to adapt, collaborate, and excel in multicultural workplaces.</p>
   </section>
 
-  <!-- Features -->
+  <!-- Features / Services -->
   <section id="features">
     <h2>Features / Services</h2>
     <ul>
-      <li>Interactive cross-cultural training workshops</li>
-      <li>Digital learning resources and toolkits</li>
-      <li>Community discussion forums</li>
-      <li>Customized consulting for businesses</li>
+      <li>🎓 <strong>Hybrid Training:</strong> Online & offline courses with real-world case studies.</li>
+      <li>👩‍🏫 <strong>Mentoring & Coaching:</strong> Personalized guidance from experienced mentors.</li>
+      <li>🌍 <strong>Global Community:</strong> Connect with peers and professionals worldwide.</li>
+      <li>📜 <strong>Certification:</strong> Verified programs to boost career advancement.</li>
     </ul>
   </section>
 
   <!-- Why Choose Us -->
   <section id="whyus">
     <h2>Why Choose Us</h2>
-    <p>Unlike traditional training, our platform combines real-life case studies, interactive activities, 
-       and ongoing community support. We are not just a service, we are your partner in long-term cultural growth.</p>
+    <ul>
+      <li>✅ Practical, hands-on training (not just theory).</li>
+      <li>✅ Experienced mentors with real global experience.</li>
+      <li>✅ Supportive community for networking & collaboration.</li>
+      <li>✅ Tailored programs for both students & professionals.</li>
+    </ul>
   </section>
 
   <!-- Testimonials -->
   <section id="testimonials">
     <h2>Testimonials</h2>
     <blockquote>
-      “This platform transformed how our team collaborates across cultures. Highly recommended!” – Early Partner
+      “Culture Connect helped me adapt quickly when I started my internship abroad. The mentoring sessions were eye-opening.” – Anna, Student
+    </blockquote>
+    <blockquote>
+      “Our team improved collaboration after joining their cross-cultural program.” – HR Manager, Multinational Company
     </blockquote>
   </section>
 
   <!-- Pricing -->
   <section id="pricing">
     <h2>Pricing</h2>
-    <p>We offer flexible packages tailored to your needs:</p>
     <ul>
-      <li><strong>Basic:</strong> Free access to community forums</li>
-      <li><strong>Standard:</strong> Workshops + online resources</li>
-      <li><strong>Premium:</strong> Custom consulting + full access</li>
+      <li><strong>Student Package:</strong> $20/month – Access to training + community.</li>
+      <li><strong>Professional Package:</strong> $40/month – Training, mentoring & certification.</li>
+      <li><strong>Corporate Package:</strong> Custom plan for companies & teams.</li>
     </ul>
-    <a href="#contact" class="cta-button">Contact Us for Plans</a>
+    <a href="#contact" class="cta-button">Contact Us for Custom Plan</a>
   </section>
 
   <!-- Blog -->
   <section id="blog">
-    <h2>Insights & Articles</h2>
-    <p>Stay tuned for articles on culture, communication tips, and real-world stories.</p>
+    <h2>Blog / Insights</h2>
+    <ul>
+      <li>“5 Tips to Communicate Better in a Multicultural Team”</li>
+      <li>“Why Cross-Cultural Skills Matter in the Global Job Market”</li>
+    </ul>
   </section>
 
   <!-- Contact Us -->
   <section id="contact">
     <h2>Contact Us</h2>
+    <p>Have questions or want to join? Get in touch with us!</p>
+    <p>📧 Email: <a href="mailto:culterconnect@gmail.com">culterconnect@gmail.com</a></p>
+    <p>📱 WhatsApp: +62 812-3456-7890</p>
+    <p>📍 Jakarta, Indonesia</p>
     <form>
-      <label>Name:</label><br>
-      <input type="text" name="name" required><br><br>
-      <label>Email:</label><br>
-      <input type="email" name="email" required><br><br>
-      <label>Message:</label><br>
-      <textarea name="message" rows="5" required></textarea><br><br>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
       <button type="submit">Send</button>
     </form>
-    <p>Email: contact@crossculturalplatform.com</p>
-    <p>WhatsApp: +62 812-3456-7890</p>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Cross-Cultural Platform | All Rights Reserved</p>
     <p>
       <a href="#about">About</a> | 
       <a href="#features">Services</a> | 
+      <a href="#blog">Blog</a> | 
       <a href="#contact">Contact</a> | 
       <a href="#">Privacy Policy</a>
     </p>
+    <p>
+      🌐 <a href="#">Instagram</a> | 
+      <a href="#">LinkedIn</a> | 
+      <a href="#">WhatsApp</a> | 
+      <a href="mailto:culterconnect@gmail.com">Email</a>
+    </p>
+    <p>&copy; 2025 Culture Connect | All Rights Reserved</p>
   </footer>
 
 </body>
-  </html>
+      </html>
